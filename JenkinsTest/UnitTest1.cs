@@ -12,8 +12,13 @@ namespace JenkinsTest
         [Test]
         public void Test1()
         {
-            Assert.AreEqual(1,1, "Nums are not equals");
-            Assert.AreEqual(0, 1, "Nums are not equals");
+            Assert.AreEqual(1, 1, "Nums are not equal");
+            Assert.AreEqual(0, 1, "Nums are not equal");
+        }
+
+        public void Test2()
+        {
+            Assert.AreEqual(10, 11, "Test2 Nums are not equal");
         }
     }
 }
