@@ -16,6 +16,7 @@ namespace JenkinsTest
         public void Test1()
         {
             Assert.AreEqual(1, 1, "Nums are not equalûûû TEST");
+            Assert.AreEqual(10, 10);
         }
     }
 }
